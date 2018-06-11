@@ -1,0 +1,9 @@
+CREATE TABLE Cars (
+    ID int NOT NULL AUTO_INCREMENT,
+    Name varchar(255) NOT NULL,
+    Company varchar(255),
+    Age int,
+    PRIMARY KEY (ID)
+);
+
+INSERT INTO Cars (Name, Company, Age) VALUES ('Prius', 'Toyota', 4);
